@@ -1,7 +1,7 @@
 package com.cc.java;
 
 public class Test {
-    
+
     // Felder (fields) | Attribute, Eigenschaften
     // private --> Kapselung / encapsulation/ data hiding
 
@@ -12,11 +12,11 @@ public class Test {
         this.name = name;
         this.age = age;
     }
-    
-	// Sichtbarkeit | access (access modifiers)
-	// public --> alle dürfen sehen/schreiben (+)
-	// private --> NUR die eigene Klasse / Objekt (-)
-	// protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
+
+    // Sichtbarkeit | access (access modifiers)
+    // public --> alle dürfen sehen/schreiben (+)
+    // private --> NUR die eigene Klasse / Objekt (-)
+    // protected --> NUR die eigene Klasse / Objekt + Subklassen (#)
 
     public String getName() {
         return name;
@@ -33,12 +33,5 @@ public class Test {
     public void setAge(int age) {
         this.age = age;
     }
-
- 
-
- 
-
-
-
 
 }
